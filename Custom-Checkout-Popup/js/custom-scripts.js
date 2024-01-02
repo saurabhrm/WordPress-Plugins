@@ -9,13 +9,13 @@ jQuery(document).ready(function ($) {
     window.location.href =
       "https://hbxstudio.in/webdev/checkout/?add-to-cart=" +
       addToCartValue +
-      "&quantity=1";
+      "&quantity=1"; //url of your website
   }
 
   $("#demo").on("submit", function (e) {
     e.preventDefault();
     submitForminatorForm("#50608a4", "14");
-  });
+  }); //popup ID and form ID and product ID
 
   $("#demo1").on("submit", function (e) {
     e.preventDefault();
